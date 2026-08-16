@@ -1,0 +1,16 @@
+# Internal working material, not part of the distributed theme.
+/docs/
+/tests/
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+
+# Dependencies and build output, should any be introduced
+/node_modules/
+/vendor/
+*.log

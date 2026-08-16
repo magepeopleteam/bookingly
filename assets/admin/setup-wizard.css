@@ -1,0 +1,517 @@
+.bookingly-setup-wrap {
+	--bookingly-admin-primary: #2b6e58;
+	--bookingly-admin-primary-dark: #1e4f3f;
+	--bookingly-admin-primary-soft: #e7f2ed;
+	--bookingly-admin-accent: #e7a33e;
+	--bookingly-admin-ink: #1d2924;
+	--bookingly-admin-muted: #5d6b64;
+	--bookingly-admin-line: #d6dfda;
+	--bookingly-admin-surface: #fff;
+	--bookingly-admin-page: #f3f7f4;
+	--bookingly-admin-danger: #b42318;
+	--bookingly-admin-danger-soft: #fef3f2;
+	--bookingly-admin-warning: #8a5a00;
+	--bookingly-admin-warning-soft: #fff8e7;
+	max-width: 1040px;
+	color: var(--bookingly-admin-ink);
+}
+
+.bookingly-setup-header {
+	margin: 28px 0 22px;
+	max-width: 760px;
+}
+
+.bookingly-setup-header h1 {
+	margin: 4px 0 8px;
+	font-size: clamp(26px, 3vw, 36px);
+	line-height: 1.18;
+	color: var(--bookingly-admin-ink);
+}
+
+.bookingly-setup-header > p:last-child {
+	margin: 0;
+	font-size: 15px;
+	line-height: 1.65;
+	color: var(--bookingly-admin-muted);
+}
+
+.bookingly-kicker,
+.bookingly-step-count {
+	margin: 0;
+	color: var(--bookingly-admin-primary);
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: .09em;
+	text-transform: uppercase;
+}
+
+.bookingly-setup-progress-nav {
+	margin-bottom: 18px;
+	padding: 16px;
+	background: var(--bookingly-admin-surface);
+	border: 1px solid var(--bookingly-admin-line);
+	border-radius: 14px;
+	box-shadow: 0 8px 28px rgba(29, 41, 36, .05);
+	overflow-x: auto;
+}
+
+.bookingly-setup-stepper {
+	display: grid;
+	grid-template-columns: repeat(5, minmax(112px, 1fr));
+	gap: 8px;
+	min-width: 640px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.bookingly-setup-stepper li {
+	position: relative;
+	margin: 0;
+}
+
+.bookingly-setup-stepper button {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	min-height: 46px;
+	gap: 9px;
+	padding: 7px 9px;
+	color: var(--bookingly-admin-muted);
+	background: transparent;
+	border: 1px solid transparent;
+	border-radius: 9px;
+	font-weight: 600;
+	text-align: left;
+	cursor: pointer;
+}
+
+.bookingly-setup-stepper button:hover:not(:disabled) {
+	color: var(--bookingly-admin-primary-dark);
+	background: var(--bookingly-admin-primary-soft);
+}
+
+.bookingly-setup-stepper button[aria-current="step"] {
+	color: var(--bookingly-admin-primary-dark);
+	background: var(--bookingly-admin-primary-soft);
+	border-color: #b9d7ca;
+}
+
+.bookingly-setup-stepper button:disabled {
+	cursor: not-allowed;
+	opacity: .58;
+}
+
+.bookingly-step-number {
+	display: inline-grid;
+	place-items: center;
+	flex: 0 0 28px;
+	height: 28px;
+	color: var(--bookingly-admin-muted);
+	background: var(--bookingly-admin-page);
+	border: 1px solid var(--bookingly-admin-line);
+	border-radius: 50%;
+	font-size: 12px;
+}
+
+.bookingly-setup-stepper button[aria-current="step"] .bookingly-step-number,
+.bookingly-setup-stepper .is-complete .bookingly-step-number {
+	color: #fff;
+	background: var(--bookingly-admin-primary);
+	border-color: var(--bookingly-admin-primary);
+}
+
+.bookingly-setup-card {
+	background: var(--bookingly-admin-surface);
+	border: 1px solid var(--bookingly-admin-line);
+	border-radius: 16px;
+	box-shadow: 0 14px 40px rgba(29, 41, 36, .07);
+	overflow: hidden;
+}
+
+.bookingly-setup-panel {
+	min-height: 330px;
+	padding: clamp(24px, 5vw, 48px);
+}
+
+.bookingly-setup-panel[hidden] {
+	display: none;
+}
+
+.bookingly-setup-panel h2 {
+	margin: 8px 0 12px;
+	font-size: clamp(22px, 2.5vw, 30px);
+	line-height: 1.25;
+	color: var(--bookingly-admin-ink);
+}
+
+.bookingly-setup-panel > p:not(.bookingly-step-count):not(.bookingly-setup-log) {
+	max-width: 720px;
+	font-size: 14px;
+	line-height: 1.65;
+	color: var(--bookingly-admin-muted);
+}
+
+.bookingly-plugin-grid,
+.bookingly-result-list,
+.bookingly-readiness-list {
+	display: grid;
+	gap: 10px;
+	margin: 22px 0;
+	padding: 0;
+	list-style: none;
+}
+
+.bookingly-plugin-grid {
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.bookingly-plugin-card,
+.bookingly-result-list li,
+.bookingly-readiness-list li {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin: 0;
+	padding: 13px 15px;
+	background: var(--bookingly-admin-page);
+	border: 1px solid var(--bookingly-admin-line);
+	border-radius: 10px;
+}
+
+.bookingly-plugin-card {
+	position: relative;
+	align-items: flex-start;
+	min-height: 148px;
+	padding: 18px;
+	background: #fff;
+	box-shadow: 0 8px 24px rgba(29, 41, 36, .045);
+}
+
+.bookingly-plugin-card[data-required="1"] {
+	border-color: #b9d7ca;
+	box-shadow: inset 0 3px 0 var(--bookingly-admin-primary), 0 8px 24px rgba(29, 41, 36, .045);
+}
+
+.bookingly-plugin-card[aria-busy="true"] {
+	cursor: progress;
+	background: var(--bookingly-admin-warning-soft);
+	border-color: #eed597;
+}
+
+.bookingly-plugin-card.has-operation-error {
+	background: var(--bookingly-admin-danger-soft);
+	border-color: #f4b8b3;
+}
+
+.bookingly-plugin-copy {
+	flex: 1 1 auto;
+	min-width: 0;
+}
+
+.bookingly-plugin-copy > div {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 6px;
+}
+
+.bookingly-plugin-copy > p:first-of-type {
+	margin: 8px 0 10px;
+	color: var(--bookingly-admin-muted);
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+.bookingly-required,
+.bookingly-optional {
+	display: inline-block;
+	margin-left: 5px;
+	padding: 2px 7px;
+	border-radius: 999px;
+	font-size: 10px;
+	font-weight: 700;
+	letter-spacing: .04em;
+	text-transform: uppercase;
+}
+
+.bookingly-required {
+	color: var(--bookingly-admin-primary-dark);
+	background: var(--bookingly-admin-primary-soft);
+}
+
+.bookingly-optional {
+	color: var(--bookingly-admin-muted);
+	background: #edf0ee;
+}
+
+.bookingly-plugin-status {
+	margin: 0;
+	font-size: 12px;
+	font-weight: 700;
+	color: var(--bookingly-admin-muted);
+}
+
+.bookingly-plugin-status:focus {
+	outline: 3px solid var(--bookingly-admin-accent);
+	outline-offset: 3px;
+}
+
+.bookingly-plugin-action {
+	display: flex;
+	align-self: stretch;
+	align-items: flex-end;
+	flex: 0 0 auto;
+}
+
+.bookingly-plugin-action .button {
+	white-space: nowrap;
+}
+
+.bookingly-plugin-ready {
+	display: inline-flex;
+	align-items: center;
+	min-height: 30px;
+	padding: 3px 10px;
+	color: var(--bookingly-admin-primary-dark);
+	background: var(--bookingly-admin-primary-soft);
+	border-radius: 999px;
+	font-size: 12px;
+	font-weight: 700;
+}
+
+.bookingly-status-icon,
+.bookingly-readiness-list li > span:first-child {
+	width: 11px;
+	height: 11px;
+	flex: 0 0 11px;
+	background: #8c9791;
+	border-radius: 50%;
+	box-shadow: 0 0 0 4px #e5e9e7;
+}
+
+.bookingly-plugin-card[data-state="active"] .bookingly-status-icon,
+.bookingly-readiness-list li.is-ready > span:first-child {
+	background: var(--bookingly-admin-primary);
+	box-shadow: 0 0 0 4px var(--bookingly-admin-primary-soft);
+}
+
+.bookingly-plugin-card.has-operation-error,
+.bookingly-result-list li[data-status="error"] {
+	background: var(--bookingly-admin-danger-soft);
+	border-color: #f4b8b3;
+}
+
+.bookingly-plugin-card.has-operation-error .bookingly-status-icon {
+	background: var(--bookingly-admin-danger);
+	box-shadow: 0 0 0 4px #fee4e2;
+}
+
+.bookingly-result-list li {
+	justify-content: space-between;
+}
+
+.bookingly-result-list li span {
+	color: var(--bookingly-admin-muted);
+	font-size: 13px;
+}
+
+.bookingly-empty-state {
+	margin: 20px 0;
+	padding: 14px 16px;
+	color: var(--bookingly-admin-muted);
+	background: var(--bookingly-admin-page);
+	border: 1px dashed #aebbb4;
+	border-radius: 10px;
+}
+
+.bookingly-setup-log {
+	min-height: 22px;
+	margin: 16px 0 0;
+	padding: 0;
+	font-weight: 600;
+}
+
+.bookingly-setup-log.is-working {
+	color: var(--bookingly-admin-warning);
+}
+
+.bookingly-setup-log.is-success {
+	color: var(--bookingly-admin-primary-dark);
+}
+
+.bookingly-setup-log.is-error {
+	padding: 11px 13px;
+	color: var(--bookingly-admin-danger);
+	background: var(--bookingly-admin-danger-soft);
+	border-left: 4px solid var(--bookingly-admin-danger);
+	border-radius: 6px;
+}
+
+.bookingly-setup-progress {
+	margin: 22px 0;
+}
+
+.bookingly-setup-progress[hidden] {
+	display: none;
+}
+
+.bookingly-setup-progress-track {
+	height: 10px;
+	background: #e2e9e5;
+	border-radius: 999px;
+	overflow: hidden;
+}
+
+.bookingly-setup-progress-track span {
+	display: block;
+	width: 0;
+	height: 100%;
+	background: var(--bookingly-admin-primary);
+	border-radius: inherit;
+	transition: width .25s ease;
+}
+
+.bookingly-setup-progress-label {
+	margin: 8px 0 0;
+	font-size: 13px;
+	font-weight: 600;
+	color: var(--bookingly-admin-muted);
+}
+
+.bookingly-readiness-list li.is-pending {
+	color: var(--bookingly-admin-warning);
+	background: var(--bookingly-admin-warning-soft);
+	border-color: #eed597;
+}
+
+.bookingly-readiness-list li.is-pending > span:first-child {
+	background: var(--bookingly-admin-warning);
+	box-shadow: 0 0 0 4px #f8e9bf;
+}
+
+.bookingly-setup-actions {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin-top: 28px;
+	padding-top: 22px;
+	border-top: 1px solid var(--bookingly-admin-line);
+}
+
+.bookingly-setup-wrap .button {
+	min-height: 38px;
+	padding: 4px 15px;
+	border-radius: 7px;
+}
+
+.bookingly-setup-wrap .button-primary {
+	background: var(--bookingly-admin-primary);
+	border-color: var(--bookingly-admin-primary);
+}
+
+.bookingly-setup-wrap .button-primary:hover,
+.bookingly-setup-wrap .button-primary:focus {
+	background: var(--bookingly-admin-primary-dark);
+	border-color: var(--bookingly-admin-primary-dark);
+}
+
+.bookingly-setup-wrap button:focus-visible,
+.bookingly-setup-wrap a:focus-visible,
+.bookingly-setup-wrap [tabindex="-1"]:focus {
+	outline: 3px solid var(--bookingly-admin-accent);
+	outline-offset: 3px;
+	box-shadow: none;
+}
+
+.bookingly-setup-wrap [tabindex="-1"]:focus {
+	border-radius: 4px;
+}
+
+.bookingly-setup-wrap .button:disabled,
+.bookingly-setup-wrap .button.disabled {
+	color: #6b756f !important;
+	background: #e7ebe9 !important;
+	border-color: #c8d0cc !important;
+	cursor: not-allowed;
+	opacity: 1;
+}
+
+.bookingly-setup-wrap .button.is-busy {
+	cursor: progress;
+}
+
+@media (max-width: 782px) {
+	.bookingly-setup-wrap {
+		margin-right: 12px;
+	}
+
+	.bookingly-setup-progress-nav {
+		padding: 10px;
+	}
+
+	.bookingly-setup-panel {
+		min-height: 0;
+		padding: 24px 18px;
+	}
+
+	.bookingly-plugin-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.bookingly-plugin-card,
+	.bookingly-result-list li {
+		align-items: flex-start;
+		flex-wrap: wrap;
+	}
+
+	.bookingly-plugin-action {
+		width: 100%;
+		padding-left: 23px;
+	}
+
+	.bookingly-plugin-action .button {
+		width: 100%;
+		justify-content: center;
+	}
+
+	.bookingly-result-list li span {
+		width: 100%;
+	}
+
+	.bookingly-setup-actions .button {
+		width: 100%;
+		justify-content: center;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.bookingly-setup-wrap *,
+	.bookingly-setup-wrap *::before,
+	.bookingly-setup-wrap *::after {
+		scroll-behavior: auto !important;
+		transition: none !important;
+		animation: none !important;
+	}
+}
+
+/* Completed step ---------------------------------------------------------- */
+
+.bookingly-setup-panel.is-complete .bookingly-setup-action[disabled] {
+	opacity: 1;
+	background: #f0f4f1;
+	border-color: #cfe0d6;
+	color: #2B6E58;
+	cursor: default;
+}
+
+.bookingly-setup-panel.is-complete .bookingly-setup-action[disabled]::before {
+	content: "✓";
+	margin-right: 7px;
+	font-weight: 700;
+}
+
+.bookingly-setup-panel .bookingly-setup-next[disabled] {
+	cursor: not-allowed;
+}

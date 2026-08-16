@@ -1,0 +1,3348 @@
+# Copyright (C) 2026 MagePeople Team
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Bookingly 1.5.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/bookingly\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-08-15T16:31:26+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: bookingly\n"
+
+#. Theme Name of the theme
+#: style.css
+#: inc/builders/elementor.php:26
+#: inc/class-bookingly-theme-options.php:43
+#: inc/patterns.php:28
+msgid "Bookingly"
+msgstr ""
+
+#. Theme URI of the theme
+#. Author URI of the theme
+#: style.css
+msgid "https://mage-people.com/"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "A professional service-booking theme for WpBookingly with guided setup, live service templates, configurable layouts, header and footer controls, blog and contact pages, safe builder switching, and optional Elementor integration. Booking workflows remain owned by Service Booking Manager."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "MagePeople Team"
+msgstr ""
+
+#: 404.php:15
+msgid "Error 404"
+msgstr ""
+
+#: 404.php:16
+msgid "This page took a day off."
+msgstr ""
+
+#: 404.php:17
+msgid "The page you asked for could not be found. It may have moved, or the link may be out of date."
+msgstr ""
+
+#: 404.php:20
+msgid "Back to Home"
+msgstr ""
+
+#: 404.php:22
+msgid "Browse Services"
+msgstr ""
+
+#: archive.php:13
+msgid "Archive"
+msgstr ""
+
+#: archive.php:36
+#: comments.php:51
+#: home.php:78
+#: index.php:28
+#: search.php:51
+msgid "Previous"
+msgstr ""
+
+#: archive.php:37
+#: comments.php:52
+#: home.php:79
+#: index.php:29
+#: search.php:52
+msgid "Next"
+msgstr ""
+
+#: archive.php:43
+msgid "Nothing found in this archive."
+msgstr ""
+
+#. translators: %s: comment count
+#: comments.php:29
+#, php-format
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:60
+msgid "Comments are closed."
+msgstr ""
+
+#. translators: %s: site name
+#: footer.php:26
+#, php-format
+msgid "%s. All rights reserved."
+msgstr ""
+
+#: footer.php:35
+msgid "Facebook"
+msgstr ""
+
+#: footer.php:36
+msgid "Instagram"
+msgstr ""
+
+#: footer.php:37
+msgid "X"
+msgstr ""
+
+#: footer.php:38
+msgid "LinkedIn"
+msgstr ""
+
+#: footer.php:49
+#: footer.php:93
+#: inc/class-bookingly-theme-options.php:674
+#: inc/setup.php:384
+msgid "Services"
+msgstr ""
+
+#: footer.php:50
+#: inc/setup.php:383
+msgid "About"
+msgstr ""
+
+#: footer.php:51
+#: inc/class-bookingly-theme-options.php:719
+msgid "Blog"
+msgstr ""
+
+#: footer.php:52
+#: footer.php:108
+#: inc/setup.php:409
+msgid "Contact"
+msgstr ""
+
+#: footer.php:82
+msgid "Explore"
+msgstr ""
+
+#: footer.php:100
+msgid "Browse services"
+msgstr ""
+
+#: footer.php:129
+msgid "Privacy Policy"
+msgstr ""
+
+#: footer.php:133
+msgid "Terms of Service"
+msgstr ""
+
+#: header.php:18
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:21
+msgid "Primary"
+msgstr ""
+
+#: header.php:45
+msgid "Book Now"
+msgstr ""
+
+#: header.php:50
+msgid "Menu"
+msgstr ""
+
+#: home.php:85
+msgid "No posts published yet."
+msgstr ""
+
+#: inc/builders/blocks.php:143
+msgid "Bookingly Sections"
+msgstr ""
+
+#: inc/builders/blocks.php:216
+#: inc/builders/class-bookingly-divi-module.php:74
+#: inc/builders/class-bookingly-elementor-widget.php:109
+msgid "Content"
+msgstr ""
+
+#: inc/builders/blocks.php:217
+msgid "Layout"
+msgstr ""
+
+#: inc/builders/blocks.php:218
+msgid "Select image"
+msgstr ""
+
+#: inc/builders/blocks.php:219
+msgid "Replace image"
+msgstr ""
+
+#: inc/builders/blocks.php:220
+msgid "Remove image"
+msgstr ""
+
+#: inc/builders/blocks.php:221
+#: inc/builders/class-bookingly-divi-module.php:92
+#: inc/builders/class-bookingly-elementor-widget.php:160
+msgid "Leave empty to use the value from Theme Options."
+msgstr ""
+
+#: inc/builders/blocks.php:222
+msgid "Add item"
+msgstr ""
+
+#: inc/builders/blocks.php:223
+msgid "Remove item"
+msgstr ""
+
+#: inc/builders/blocks.php:224
+msgid "Move up"
+msgstr ""
+
+#: inc/builders/blocks.php:225
+msgid "Move down"
+msgstr ""
+
+#: inc/builders/blocks.php:226
+msgid "Currently showing the list from Theme Options. Add an item to override it here."
+msgstr ""
+
+#: inc/builders/build-mode.php:30
+msgid "Theme templates"
+msgstr ""
+
+#: inc/builders/build-mode.php:31
+msgid "Bookingly renders each page in PHP. Fastest, and content is edited in Theme Options. Pages have no editable canvas."
+msgstr ""
+
+#: inc/builders/build-mode.php:34
+#: inc/class-bookingly-theme-options.php:1784
+msgid "Block editor"
+msgstr ""
+
+#: inc/builders/build-mode.php:35
+msgid "Each page holds its sections as blocks. Edit them in the WordPress editor, section by section."
+msgstr ""
+
+#: inc/builders/build-mode.php:38
+#: inc/class-bookingly-setup-wizard.php:81
+#: inc/class-bookingly-theme-options.php:1782
+msgid "Elementor"
+msgstr ""
+
+#: inc/builders/build-mode.php:39
+msgid "Each page is handed to Elementor with its sections as widgets, inside containers you can restyle and reorder."
+msgstr ""
+
+#: inc/builders/build-mode.php:227
+msgid "WordPress did not preserve the generated page content."
+msgstr ""
+
+#: inc/builders/build-mode.php:244
+msgid "This Elementor layout is not an unchanged Bookingly-generated layout."
+msgstr ""
+
+#: inc/builders/build-mode.php:265
+msgid "This page has changes that Bookingly will not overwrite."
+msgstr ""
+
+#: inc/builders/build-mode.php:285
+msgid "The original page layout could not be restored exactly."
+msgstr ""
+
+#: inc/builders/build-mode.php:304
+msgid "Unknown building mode."
+msgstr ""
+
+#: inc/builders/build-mode.php:308
+msgid "Elementor is not active, so pages cannot be switched to it."
+msgstr ""
+
+#: inc/builders/build-mode.php:339
+#: inc/builders/elementor-templates.php:142
+msgid "The original page state could not be backed up."
+msgstr ""
+
+#: inc/builders/build-mode.php:357
+msgid "The requested block layout is unavailable."
+msgstr ""
+
+#: inc/builders/build-mode.php:398
+msgid "You are not allowed to change how pages are built."
+msgstr ""
+
+#: inc/builders/build-mode.php:436
+msgid "Pages could not be switched. No user-authored layout was overwritten."
+msgstr ""
+
+#. translators: 1: number of pages, 2: mode name
+#: inc/builders/build-mode.php:443
+#, php-format
+msgid "%1$d page switched to %2$s."
+msgid_plural "%1$d pages switched to %2$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: number of protected pages
+#: inc/builders/build-mode.php:451
+#, php-format
+msgid "%d authored page was protected and skipped."
+msgid_plural "%d authored pages were protected and skipped."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/builders/class-bookingly-divi-module.php:51
+#: inc/builders/class-bookingly-elementor-widget.php:37
+msgid "Bookingly Section"
+msgstr ""
+
+#. translators: %s: section name
+#: inc/builders/class-bookingly-divi-module.php:65
+#, php-format
+msgid "Bookingly %s"
+msgstr ""
+
+#: inc/builders/class-bookingly-divi-module.php:107
+msgid "Optional JSON list of rows. Leave empty to use the list from Theme Options."
+msgstr ""
+
+#: inc/builders/class-bookingly-divi-module.php:119
+msgid "No"
+msgstr ""
+
+#: inc/builders/class-bookingly-divi-module.php:120
+msgid "Yes"
+msgstr ""
+
+#: inc/builders/class-bookingly-divi-module.php:148
+msgid "Choose image"
+msgstr ""
+
+#: inc/builders/class-bookingly-divi-module.php:149
+msgid "Choose an image"
+msgstr ""
+
+#: inc/builders/class-bookingly-divi-module.php:150
+msgid "Set image"
+msgstr ""
+
+#: inc/builders/class-bookingly-elementor-widget.php:130
+msgid "This section has no settings. Its content is managed in Bookingly → Theme Options."
+msgstr ""
+
+#: inc/builders/class-bookingly-elementor-widget.php:172
+msgid "Show"
+msgstr ""
+
+#: inc/builders/class-bookingly-elementor-widget.php:173
+msgid "Hide"
+msgstr ""
+
+#: inc/builders/class-bookingly-elementor-widget.php:242
+msgid "Leave empty to use the list from Theme Options."
+msgstr ""
+
+#: inc/builders/elementor-templates.php:30
+#: inc/patterns.php:64
+msgid "Bookingly — Full homepage"
+msgstr ""
+
+#: inc/builders/elementor-templates.php:34
+#: inc/patterns.php:69
+msgid "Bookingly — About page"
+msgstr ""
+
+#: inc/builders/elementor-templates.php:38
+#: inc/patterns.php:74
+msgid "Bookingly — Services page"
+msgstr ""
+
+#: inc/builders/elementor-templates.php:42
+#: inc/patterns.php:79
+msgid "Bookingly — Contact page"
+msgstr ""
+
+#: inc/builders/elementor-templates.php:46
+#: inc/patterns.php:84
+msgid "Bookingly — Blog landing"
+msgstr ""
+
+#: inc/builders/elementor-templates.php:126
+msgid "That page no longer exists."
+msgstr ""
+
+#: inc/builders/elementor-templates.php:130
+msgid "Unknown layout."
+msgstr ""
+
+#: inc/builders/elementor-templates.php:134
+msgid "Elementor is not active."
+msgstr ""
+
+#: inc/builders/elementor-templates.php:138
+msgid "This page contains an authored layout, so Bookingly did not replace it."
+msgstr ""
+
+#: inc/builders/elementor-templates.php:148
+msgid "That layout has no sections."
+msgstr ""
+
+#: inc/builders/elementor-templates.php:159
+msgid "Elementor did not preserve the generated layout."
+msgstr ""
+
+#: inc/builders/elementor-templates.php:237
+msgid "You are not allowed to change this page layout."
+msgstr ""
+
+#: inc/class-bookingly-email-delivery.php:112
+#: inc/class-bookingly-email-delivery.php:481
+msgid "New contact message"
+msgstr ""
+
+#: inc/class-bookingly-email-delivery.php:114
+msgid "Name:"
+msgstr ""
+
+#: inc/class-bookingly-email-delivery.php:115
+msgid "Email:"
+msgstr ""
+
+#: inc/class-bookingly-email-delivery.php:116
+msgid "Phone:"
+msgstr ""
+
+#: inc/class-bookingly-email-delivery.php:117
+msgid "Topic:"
+msgstr ""
+
+#: inc/class-bookingly-email-delivery.php:119
+msgid "Message:"
+msgstr ""
+
+#: inc/class-bookingly-email-delivery.php:441
+msgid "Someone just sent a message through the website contact form."
+msgstr ""
+
+#: inc/class-bookingly-email-delivery.php:448
+#: inc/class-bookingly-theme-options.php:1508
+#: inc/class-bookingly-theme-options.php:1672
+#: inc/sections.php:209
+#: inc/sections.php:273
+msgid "Name"
+msgstr ""
+
+#: inc/class-bookingly-email-delivery.php:449
+#: inc/section-renderers.php:845
+#: inc/sections.php:314
+msgid "Email"
+msgstr ""
+
+#: inc/class-bookingly-email-delivery.php:451
+#: inc/section-renderers.php:851
+#: inc/sections.php:312
+msgid "Phone"
+msgstr ""
+
+#: inc/class-bookingly-email-delivery.php:453
+#: inc/section-renderers.php:855
+msgid "Topic"
+msgstr ""
+
+#: inc/class-bookingly-email-delivery.php:457
+msgid "Received"
+msgstr ""
+
+#: inc/class-bookingly-email-delivery.php:464
+#: inc/section-renderers.php:864
+msgid "Message"
+msgstr ""
+
+#. translators: %s: sender first name.
+#: inc/class-bookingly-email-delivery.php:475
+#, php-format
+msgid "Reply to %s"
+msgstr ""
+
+#: inc/class-bookingly-email-delivery.php:483
+msgid "Sent automatically from your website contact form."
+msgstr ""
+
+#: inc/class-bookingly-email-delivery.php:512
+msgid "Your message"
+msgstr ""
+
+#: inc/class-bookingly-email-delivery.php:519
+msgid "Thanks for getting in touch — we have your message."
+msgstr ""
+
+#: inc/class-bookingly-email-delivery.php:520
+msgid "We received your message"
+msgstr ""
+
+#: inc/class-bookingly-email-delivery.php:522
+msgid "You received this because you used the contact form on our website."
+msgstr ""
+
+#: inc/class-bookingly-email-delivery.php:589
+msgid "Please wait before sending another message."
+msgstr ""
+
+#: inc/class-bookingly-seo-meta.php:64
+msgid "SEO — Bookingly"
+msgstr ""
+
+#: inc/class-bookingly-seo-meta.php:101
+msgid "Leave any field empty to use the automatic value. Nothing here is required."
+msgstr ""
+
+#: inc/class-bookingly-seo-meta.php:112
+msgid "SEO Title"
+msgstr ""
+
+#: inc/class-bookingly-seo-meta.php:119
+msgid "Aim for roughly 70 characters. Defaults to the entry title."
+msgstr ""
+
+#: inc/class-bookingly-seo-meta.php:124
+msgid "Meta Description"
+msgstr ""
+
+#: inc/class-bookingly-seo-meta.php:130
+msgid "Aim for roughly 160 characters. Defaults to the excerpt, then the opening content."
+msgstr ""
+
+#: inc/class-bookingly-seo-meta.php:134
+msgid "Social Sharing Image"
+msgstr ""
+
+#. translators: %s: image field label.
+#: inc/class-bookingly-seo-meta.php:141
+#: inc/class-bookingly-theme-options.php:980
+msgid "Select Image"
+msgstr ""
+
+#. translators: %s: image field label.
+#: inc/class-bookingly-seo-meta.php:142
+#: inc/class-bookingly-theme-options.php:981
+msgid "Remove"
+msgstr ""
+
+#: inc/class-bookingly-seo-meta.php:143
+msgid "Used by Facebook, LinkedIn and X. Defaults to the featured image, then the site-wide sharing image."
+msgstr ""
+
+#: inc/class-bookingly-seo-meta.php:149
+msgid "Hide this entry from search engines (noindex)"
+msgstr ""
+
+#: inc/class-bookingly-seo-meta.php:151
+msgid "Links on the page are still followed. Use for thank-you pages, duplicates and internal-only content."
+msgstr ""
+
+#: inc/class-bookingly-seo-meta.php:194
+msgid "Select Sharing Image"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:45
+msgid "Service Booking Manager"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:46
+msgid "The booking engine used by Bookingly services and appointment pages."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:53
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:55
+msgid "Required because WPBookingly is currently configured to use WooCommerce checkout."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:56
+msgid "Optional for sites using WPBookingly’s native checkout; useful for WooCommerce payments and orders."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:63
+msgid "Service Booking Manager PRO"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:64
+msgid "Optional premium booking features. Bookingly never downloads a licensed package."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:71
+msgid "MagePeople PDF Support"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:73
+msgid "Required by the active PRO add-on for PDF tickets and invoices."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:74
+msgid "Optional companion used by PRO for PDF tickets and invoices."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:82
+msgid "Optional visual editor. Activating it does not convert or replace any page."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:131
+msgid "Activate"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:135
+msgid "Open Plugins"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:140
+msgid "Install"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:144
+#: inc/class-bookingly-setup-wizard.php:153
+msgid "Ask a network administrator"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:149
+msgid "Open PDF setup"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:153
+msgid "Upload plugin"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:295
+msgid "Bookingly Guided Setup"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:296
+msgid "Guided Setup"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:339
+msgid "Working…"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:340
+msgid "Installing…"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:341
+msgid "Activating…"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:342
+#: inc/class-bookingly-setup-wizard.php:723
+msgid "All required tools are active."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:343
+msgid "A required tool still needs attention."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:344
+msgid "Starter pages are ready. Existing assignments were preserved."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:345
+msgid "Importing demo services…"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:346
+msgid "Demo services imported."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:347
+msgid "Demo import skipped. You can add services later."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:348
+msgid "The importer stopped safely. Review the service list before deliberately retrying because partial demo content may exist."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:349
+msgid "Something went wrong. Review the message and retry."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:350
+msgid "Retry deliberately"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:351
+msgid "Verifying setup…"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:352
+msgid "Setup is not ready yet. Complete the required items above."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:353
+#: inc/class-bookingly-setup-wizard.php:707
+msgid "Required"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:354
+#: inc/class-bookingly-setup-wizard.php:707
+msgid "Optional"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:366
+msgid "You do not have permission to install plugins."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:372
+msgid "That plugin cannot be installed by Bookingly."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:375
+msgid "The plugin is already installed."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:378
+#: inc/class-bookingly-setup-wizard.php:429
+msgid "Another operation is already running for this plugin."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:389
+msgid "WordPress.org did not provide a download package."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:398
+msgid "WordPress could not install the plugin."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:405
+msgid "Installation finished but the expected plugin files were not found."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:408
+msgid "Installed successfully. You can activate it now."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:417
+msgid "You do not have permission to activate plugins."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:423
+msgid "Install the plugin before activating it."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:426
+msgid "The plugin is already active."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:438
+msgid "This plugin must be activated by a network administrator."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:461
+msgid "WordPress did not report the plugin as active."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:467
+msgid "Activated successfully."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:511
+#: inc/class-bookingly-setup-wizard.php:544
+msgid "Permission denied."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:514
+msgid "A demo import request is already running. Wait for it to finish before trying again."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:518
+msgid "Service Booking Manager is not active."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:541
+msgid "This setup request expired. Refresh the page and try again."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:650
+msgid "Active"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:651
+msgid "Installed"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:652
+msgid "Not installed"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:653
+msgid "Unavailable"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:655
+msgid "Needs attention"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:669
+msgid "Welcome"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:669
+msgid "Plugins"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:669
+#: inc/class-bookingly-theme-options.php:679
+#: inc/class-bookingly-theme-options.php:1758
+msgid "Pages"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:669
+msgid "Demo content"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:669
+msgid "Finish"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:673
+msgid "Bookingly onboarding"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:674
+msgid "Build your service-booking site"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:675
+msgid "Install or activate each tool individually, prepare missing site pages, and choose whether to add demo services."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:678
+msgid "Setup progress"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:692
+msgid "Step 1 of 5"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:693
+msgid "Welcome to Bookingly"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:694
+msgid "Nothing is installed or activated automatically. Existing pages, reading assignments, saved settings, and builder layouts are protected."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:695
+msgid "Start setup"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:699
+msgid "Step 2 of 5"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:700
+msgid "Choose your tools"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:701
+msgid "The booking engine is required. WooCommerce follows the payment mode already selected in WPBookingly. PRO and Elementor remain optional."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:717
+msgid "Ready"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:723
+msgid "Complete the required tool shown above."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:725
+#: inc/class-bookingly-setup-wizard.php:738
+#: inc/class-bookingly-setup-wizard.php:751
+#: inc/class-bookingly-setup-wizard.php:768
+msgid "Back"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:726
+#: inc/class-bookingly-setup-wizard.php:740
+#: inc/class-bookingly-setup-wizard.php:754
+msgid "Continue"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:731
+msgid "Step 3 of 5"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:732
+msgid "Prepare site pages"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:733
+msgid "Bookingly creates only missing Home, About, Services, Contact, and Blog pages. Valid existing front and posts page assignments are kept."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:735
+msgid "The front page and posts page are already configured."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:735
+msgid "No page changes have been run in this session."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:739
+msgid "Pages ready"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:739
+msgid "Prepare pages"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:745
+msgid "Step 4 of 5"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:746
+msgid "Choose demo content"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:747
+msgid "Optional: publish sample services to preview the theme. Skip this on an existing site. If an import fails, inspect the service list before retrying because partial content may exist."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:748
+msgid "Demo import progress"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:752
+msgid "Import demo services"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:753
+msgid "Skip demo import"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:759
+msgid "Step 5 of 5"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:760
+#: inc/class-bookingly-setup-wizard.php:768
+msgid "Verify and finish"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:761
+msgid "Bookingly verifies required tools and page assignments before marking setup complete."
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:763
+msgid "Required tools active"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:764
+msgid "Front page and blog page assigned"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:765
+msgid "Demo content choice recorded"
+msgstr ""
+
+#: inc/class-bookingly-setup-wizard.php:768
+msgid "Open Theme Options"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:42
+#: inc/class-bookingly-theme-options.php:54
+#: inc/class-bookingly-theme-options.php:738
+msgid "Bookingly Theme Options"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:55
+#: inc/customizer.php:30
+msgid "Theme Options"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:146
+msgid "Select an image"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:147
+msgid "Use this image"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:148
+msgid "You have unsaved changes."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:149
+msgid "Saving theme options…"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:150
+msgid "Configuration section opened:"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:151
+msgid "Image selected."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:152
+msgid "Image removed."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:153
+#: inc/class-bookingly-theme-options.php:979
+msgid "No image selected"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:228
+msgid "These settings changed in another tab or session. Nothing was overwritten; reload and apply your changes again."
+msgstr ""
+
+#. translators: %d: number of published services.
+#: inc/class-bookingly-theme-options.php:566
+#, php-format
+msgid "%d service is ready."
+msgid_plural "%d services are ready."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-bookingly-theme-options.php:569
+msgid "Add the first service visitors can book."
+msgstr ""
+
+#. translators: %s: selected page editor name.
+#: inc/class-bookingly-theme-options.php:572
+#, php-format
+msgid "Current editor: %s."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:578
+msgid "Booking engine"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:579
+msgid "Service Booking Manager is active."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:579
+msgid "Activate the booking engine to publish bookable services."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:582
+msgid "View services"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:582
+msgid "Open setup"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:585
+msgid "Published services"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:589
+msgid "Manage services"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:589
+msgid "Add service"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:592
+msgid "Front page"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:593
+msgid "A published static front page is assigned."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:593
+msgid "Choose a published static front page."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:596
+msgid "Edit page"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:596
+msgid "Reading settings"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:599
+msgid "Primary menu"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:600
+msgid "A menu is assigned to the primary location."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:600
+msgid "Assign the site’s main navigation."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:603
+msgid "Manage menus"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:606
+msgid "Logo"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:607
+msgid "A valid site logo is selected."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:607
+msgid "Add a logo for a complete brand identity."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:610
+msgid "Site identity"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:613
+#: inc/class-bookingly-theme-options.php:689
+msgid "Contact details"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:614
+msgid "A public business email is configured."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:614
+msgid "Replace the starter email with your business address."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:617
+msgid "Contact options"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:620
+#: inc/class-bookingly-theme-options.php:694
+msgid "Email delivery"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:621
+msgid "Contact-form delivery is configured."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:621
+msgid "Complete the Brevo or WordPress email settings."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:624
+msgid "Email options"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:627
+msgid "Build mode"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:631
+msgid "Builder options"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:654
+msgid "Layout & motion"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:655
+msgid "Set the site width, vertical rhythm, corner treatment, and motion preference."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:659
+msgid "Brand & logo"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:660
+msgid "Set the identity shown in the site header and footer."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:664
+msgid "Header actions"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:665
+msgid "Control the contact details and booking action in the site header."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:669
+msgid "Homepage"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:670
+msgid "Choose the homepage source, then edit each built-in homepage section."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:675
+msgid "Control service cards, filters, archive size, and the archive booking prompt."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:680
+msgid "Set presentation details shared by the theme page templates."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:684
+msgid "About page"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:685
+msgid "Edit the story, values, statistics, and team shown on the About template."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:690
+msgid "Enter the public contact information and opening hours visitors should see."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:695
+msgid "Configure administrator notifications, customer acknowledgements, and optional Brevo delivery."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:699
+msgid "SEO"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:700
+msgid "Search titles, descriptions, social sharing cards, and structured data. Everything works automatically; these settings only refine it."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:704
+msgid "Social profiles"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:705
+msgid "Link only the social profiles your business actively maintains."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:709
+msgid "Footer"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:710
+msgid "Configure footer copy, legal links, headings, and service limits."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:714
+msgid "Colors"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:715
+msgid "Adjust the small set of brand colors used throughout the theme."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:720
+msgid "Edit the blog introduction and the honest RSS follow prompt."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:724
+msgid "Page builders"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:725
+msgid "Use these Bookingly sections inside Elementor, Divi, the block editor, or any shortcode field."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:743
+msgid "Site ready"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:743
+msgid "Setup needs attention"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:746
+msgid "Fine-tune your Bookingly site"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:746
+msgid "Complete the essentials first"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:749
+msgid "Your required plugins and core pages are ready. Use the sections below to customize your site."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:749
+msgid "Finish the required plugins and pages, then return here to customize your site."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:753
+msgid "View site"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:753
+msgid "Continue setup"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:759
+msgid "Site checklist"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:760
+msgid "Professional launch essentials"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:762
+msgid "These recommendations do not block setup or change your content."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:783
+msgid "Theme configuration sections"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:806
+msgid "Previous section"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:809
+msgid "Next section"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:820
+msgid "Save Theme Options"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:900
+msgid "Configured — enter a new key to replace it"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:904
+msgid "Configured through BOOKINGLY_BREVO_API_KEY in wp-config.php. That value takes precedence and is never displayed here."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:905
+msgid "A saved key is configured and is never displayed. Leave this field blank to keep it."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:905
+msgid "Paste a Brevo transactional API key. It will be stored but never displayed again."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:910
+msgid "Clear the saved Brevo API key"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:931
+msgid "Enabled"
+msgstr ""
+
+#. translators: %s: image field label.
+#: inc/class-bookingly-theme-options.php:980
+#, php-format
+msgid "Select image for %s"
+msgstr ""
+
+#. translators: %s: image field label.
+#: inc/class-bookingly-theme-options.php:981
+#, php-format
+msgid "Remove image from %s"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1007
+msgid "Layout & Motion"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1010
+msgid "Content Width (px)"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1010
+msgid "Allowed range: 960–1440 pixels."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1012
+msgid "Section Spacing"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1016
+msgid "Compact"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1017
+msgid "Comfortable"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1018
+msgid "Spacious"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1022
+msgid "Corner Style"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1026
+msgid "Soft"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1027
+msgid "Rounded"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1028
+msgid "Square"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1032
+msgid "Motion"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1036
+msgid "Follow visitor preference"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1037
+msgid "Always reduce motion"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1039
+msgid "Reduced motion disables non-essential theme transitions and animation."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1054
+msgid "Brand & Logo"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1057
+msgid "Header Logo"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1058
+msgid "Footer Logo"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1059
+msgid "Footer Icon Class"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1059
+msgid "Tabler icon class used when no footer logo is set. Example: ti-spa"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1060
+msgid "Display Name Override"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1060
+msgid "Leave empty to use the WordPress site title."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1061
+msgid "Show Site Name Beside Logo"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1075
+msgid "Header Settings"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1078
+msgid "Show Phone Number"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1079
+msgid "Sticky Header"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1080
+msgid "Show Booking Button"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1081
+msgid "Show Booking Button on Mobile"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1082
+msgid "Phone Number"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1083
+msgid "Book Now Button Label"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1084
+msgid "Book Now Custom URL"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1084
+msgid "Leave empty to link to the first published service."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1098
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1101
+msgid "Footer Description"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1102
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1102
+msgid "Leave empty to auto-generate from site name."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1103
+msgid "Privacy Policy URL"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1104
+msgid "Terms of Service URL"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1105
+msgid "Explore Column Heading"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1106
+msgid "Services Column Heading"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1107
+msgid "Contact Column Heading"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1108
+msgid "Services List Limit"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1109
+msgid "Show Social Icons"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1110
+msgid "Show Service Links"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1111
+msgid "Show Contact Details"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1125
+msgid "Contact Information"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1128
+msgid "Public Email"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1129
+#: inc/sections.php:316
+#: inc/sections.php:345
+msgid "Address"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1131
+msgid "Google Map Loading"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1135
+msgid "Load the map immediately"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1136
+msgid "Require the visitor to click Load map"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1138
+msgid "Immediate loading shows the map directly. Consent mode avoids contacting Google until the visitor chooses."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1140
+msgid "Phone Availability Note"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1141
+msgid "Email Response Note"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1145
+msgid "Opening Hours"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1147
+msgid "One row per day, so any working week fits — including Sunday to Thursday. Write “Closed” for a non-working day. Days sharing the same hours are grouped automatically on the front end, and the order follows the Week Starts On setting in Settings → General."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1161
+#: inc/section-renderers.php:803
+msgid "Support Portal"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1163
+msgid "Adds a support card to the contact page. Leave the URL empty to hide the card entirely."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1168
+msgid "Support Portal URL"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1172
+msgid "Where customers open a ticket. External links open in a new tab automatically."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1174
+msgid "Support Link Label"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1175
+msgid "Support Note"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1193
+msgid "Contact Form Email Delivery"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1195
+msgid "Brevo is selected but no API key is configured. Bookingly will use WordPress email until a key is saved."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1197
+msgid "Brevo is configured. WordPress email remains available as an automatic fallback."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1199
+msgid "WordPress email is active. Select Brevo below when its sender and API key are ready."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1204
+msgid "Delivery Method"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1208
+msgid "WordPress email"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1209
+msgid "Brevo with WordPress fallback"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1211
+msgid "A timeout can rarely cause a duplicate during fallback; transport acceptance does not guarantee inbox delivery."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1213
+msgid "Administrator Recipient"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1213
+msgid "Leave empty to use the public email, then the WordPress administrator email."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1214
+msgid "Sender Name"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1214
+msgid "Leave empty to use the site name."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1215
+msgid "Verified Sender Email"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1215
+msgid "Brevo requires this sender address or domain to be verified."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1217
+msgid "Brevo API Key"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1223
+msgid "Send Customer Acknowledgement"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1224
+msgid "Administrator Subject"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1224
+#: inc/class-bookingly-theme-options.php:1225
+msgid "Available placeholders: {name}, {email}, {phone}, {topic}, {message}, {site_name}."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1225
+msgid "Customer Subject"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1226
+msgid "Customer Message"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1226
+msgid "Plain text only. The same placeholders are supported."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1230
+msgid "Spam Throttle"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1232
+msgid "Limits how often the contact form can be submitted. A visitor who exceeds either limit is asked to wait until the window passes. Lower values block spam harder; higher values suit busy sites and testing."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1237
+msgid "Submissions per visitor"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1242
+msgid "Counted per IP address. Visitors sharing an office or mobile network share this count."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1245
+msgid "Submissions per email address"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1250
+msgid "Counted per address typed into the form, so one address cannot be flooded from many networks."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1253
+msgid "Throttle window (minutes)"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1258
+msgid "How long both counts are remembered before they reset."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1277
+msgid "Search Engine Optimisation"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1281
+msgid "A dedicated SEO plugin is active, so Bookingly has stood down its titles, descriptions, social cards and schema to avoid duplicate tags. Breadcrumbs and the image speed hints stay active."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1285
+msgid "Bookingly SEO output is switched off. Pages will have no meta description, social cards or structured data unless a plugin provides them."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1292
+msgid "Bookingly is generating meta descriptions, social cards and LocalBusiness structured data for every page."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1293
+msgid "Bookingly is generating meta descriptions, social cards and Organization structured data. Add a street address on the Contact tab to upgrade to LocalBusiness and become eligible for map and rich results."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1301
+msgid "Enable Bookingly SEO"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1302
+msgid "Output Structured Data"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1303
+msgid "Hide Search Results From Search Engines"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1307
+msgid "Home Page"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1311
+msgid "Home SEO Title"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1315
+msgid "Around 70 characters. Leave empty to use the site name and tagline."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1318
+msgid "Home Meta Description"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1322
+msgid "Around 160 characters. Leave empty to use the tagline, then the front page content."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1325
+msgid "Title Separator"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1329
+msgid "The character between the page title and the site name. Leave empty for the WordPress default."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1334
+msgid "Social Sharing"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1337
+msgid "Default Sharing Image"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1339
+msgid "X (Twitter) Username"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1343
+msgid "Used for the Twitter card byline. The @ is optional."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1348
+msgid "Business Details"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1350
+msgid "Structured data reuses the address, phone and opening hours from the Contact tab. Only the extras below live here."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1355
+msgid "Price Range"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1359
+msgid "A short indicator such as $$ or £20–£60. Optional, but Google shows it for local businesses."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1374
+msgid "Social Profiles"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1377
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1378
+msgid "Instagram URL"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1379
+msgid "X / Twitter URL"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1380
+msgid "LinkedIn URL"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1395
+msgid "Homepage — Layout"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1396
+msgid "Use \"Page builder content\" to edit the homepage with Elementor, Divi, or the Block Editor instead of the built-in Bookingly sections."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1399
+msgid "Homepage Source"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1402
+msgid "Bookingly theme sections (default)"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1403
+msgid "Front page content (Elementor / Divi / Blocks)"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1408
+msgid "Show Trust Strip"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1409
+msgid "Show Services"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1410
+msgid "Show How It Works"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1411
+msgid "Show About Preview"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1412
+msgid "Show Final Booking Prompt"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1416
+msgid "Homepage — Hero"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1419
+#: inc/class-bookingly-theme-options.php:1478
+#: inc/class-bookingly-theme-options.php:1590
+msgid "Eyebrow"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1420
+msgid "Title (before emphasis)"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1421
+msgid "Title (emphasis word)"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1422
+msgid "Title (after emphasis)"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1423
+msgid "Lead Paragraph"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1424
+msgid "Primary Button"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1425
+msgid "Secondary Button"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1426
+msgid "Fallback Hero Image"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1427
+msgid "Hero Card Badge"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1429
+msgid "Homepage Service Limit"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1433
+msgid "Controls both the five-second hero rotation and the services grid (1–12)."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1435
+msgid "Trust Strip Items"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1435
+msgid "One item per line."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1439
+msgid "Homepage — Hero Stats"
+msgstr ""
+
+#. translators: %d: statistic number.
+#: inc/class-bookingly-theme-options.php:1442
+#, php-format
+msgid "Stat %d"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1444
+#: inc/class-bookingly-theme-options.php:1654
+#: inc/sections.php:126
+#: inc/sections.php:237
+msgid "Value"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1445
+#: inc/class-bookingly-theme-options.php:1655
+#: inc/sections.php:127
+#: inc/sections.php:238
+msgid "Label"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1446
+msgid "Show Star Icon"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1451
+msgid "Homepage — Sections"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1454
+msgid "Services Eyebrow"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1455
+msgid "Services Title"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1456
+msgid "Services Description"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1457
+msgid "Services Button"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1458
+msgid "How It Works Eyebrow"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1459
+msgid "How It Works Title"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1463
+msgid "How It Works Steps"
+msgstr ""
+
+#. translators: %d: step number.
+#: inc/class-bookingly-theme-options.php:1466
+#, php-format
+msgid "Step %d"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1468
+#: inc/sections.php:173
+msgid "Number"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1469
+#: inc/class-bookingly-theme-options.php:1479
+#: inc/class-bookingly-theme-options.php:1591
+#: inc/class-bookingly-theme-options.php:1615
+#: inc/class-bookingly-theme-options.php:1629
+#: inc/class-bookingly-theme-options.php:1637
+#: inc/class-bookingly-theme-options.php:1665
+#: inc/sections.php:150
+#: inc/sections.php:168
+#: inc/sections.php:174
+#: inc/sections.php:187
+#: inc/sections.php:203
+#: inc/sections.php:224
+#: inc/sections.php:250
+#: inc/sections.php:256
+#: inc/sections.php:269
+#: inc/sections.php:287
+#: inc/sections.php:302
+#: inc/sections.php:327
+#: inc/sections.php:337
+#: inc/sections.php:367
+#: inc/sections.php:379
+msgid "Title"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1470
+#: inc/class-bookingly-theme-options.php:1592
+#: inc/sections.php:151
+#: inc/sections.php:175
+#: inc/sections.php:204
+#: inc/sections.php:380
+msgid "Description"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1475
+msgid "Homepage — About Preview"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1480
+#: inc/class-bookingly-theme-options.php:1638
+#: inc/sections.php:257
+msgid "Text"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1481
+msgid "About Image"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1482
+msgid "Pill Value"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1483
+msgid "Pill Text"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1484
+msgid "Feature Points"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1484
+msgid "One point per line."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1485
+msgid "Button Label"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1489
+msgid "Homepage — Testimonials & CTA"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1492
+msgid "Show Testimonials"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1493
+msgid "Testimonials Eyebrow"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1494
+msgid "Testimonials Title"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1495
+msgid "Testimonials Description"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1496
+msgid "CTA Eyebrow"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1497
+msgid "CTA Title"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1498
+msgid "CTA Button"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1502
+msgid "Testimonial Cards"
+msgstr ""
+
+#. translators: %d: testimonial number.
+#: inc/class-bookingly-theme-options.php:1505
+#, php-format
+msgid "Testimonial %d"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1507
+#: inc/section-renderers.php:58
+#: inc/sections.php:208
+msgid "Quote"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1509
+msgid "Role / Service"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1510
+msgid "Avatar"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1511
+msgid "Star Rating (1-5)"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1527
+msgid "Service Presentation"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1530
+msgid "Show Service Images"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1531
+msgid "Show Service Prices"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1532
+msgid "Show Category Filters"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1533
+msgid "Archive Service Limit"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1533
+msgid "Use -1 to show every published service. Otherwise use 1–48."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1534
+msgid "Show Archive Booking Prompt"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1548
+msgid "Page Presentation"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1550
+msgid "Show Breadcrumbs"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1564
+msgid "Theme Colors"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1565
+msgid "These colors update CSS variables across the entire theme."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1568
+msgid "Primary Color"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1569
+msgid "Primary Dark"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1570
+msgid "Accent Color"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1571
+msgid "Background Color"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1586
+msgid "Blog Page"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1589
+msgid "Show Featured Image on Single Posts"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1593
+msgid "RSS Prompt Eyebrow"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1594
+msgid "RSS Prompt Title"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1595
+msgid "RSS Prompt Text"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1610
+#: inc/sections.php:282
+msgid "Story"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1611
+msgid "Leave the paragraph empty on the About page itself and the page content is used instead."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1614
+#: inc/class-bookingly-theme-options.php:1628
+#: inc/class-bookingly-theme-options.php:1664
+#: inc/sections.php:149
+#: inc/sections.php:167
+#: inc/sections.php:186
+#: inc/sections.php:202
+#: inc/sections.php:223
+#: inc/sections.php:249
+#: inc/sections.php:268
+#: inc/sections.php:286
+#: inc/sections.php:301
+#: inc/sections.php:366
+#: inc/sections.php:378
+msgid "Small label"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1616
+msgid "Story Paragraphs"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1616
+msgid "Leave empty to use the About page content instead. Blank lines start a new paragraph."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1617
+#: inc/sections.php:289
+msgid "Large image"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1618
+#: inc/sections.php:290
+msgid "Small image, top"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1619
+#: inc/sections.php:291
+msgid "Small image, bottom"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1620
+#: inc/sections.php:190
+#: inc/sections.php:292
+msgid "Badge number"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1621
+#: inc/sections.php:191
+#: inc/sections.php:293
+msgid "Badge caption"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1625
+msgid "Values"
+msgstr ""
+
+#. translators: %d: card number
+#: inc/class-bookingly-theme-options.php:1634
+#, php-format
+msgid "Card %d"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1636
+#: inc/sections.php:255
+msgid "Icon"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1643
+#: inc/sections.php:235
+msgid "Statistics"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1644
+msgid "Publish only figures you can stand behind. Clear a value to drop that statistic."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1647
+msgid "Show the statistics band"
+msgstr ""
+
+#. translators: %d: statistic number
+#: inc/class-bookingly-theme-options.php:1652
+#, php-format
+msgid "Statistic %d"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1660
+msgid "Team"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1663
+msgid "Show the team grid"
+msgstr ""
+
+#. translators: %d: team member number
+#: inc/class-bookingly-theme-options.php:1670
+#, php-format
+msgid "Member %d"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1673
+#: inc/sections.php:210
+#: inc/sections.php:274
+msgid "Role"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1674
+#: inc/sections.php:211
+#: inc/sections.php:275
+msgid "Photo"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1692
+msgid "Where Bookingly sections are available"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1694
+msgid "Block editor — under the “Bookingly Sections” category."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1695
+msgid "Shortcodes — usable in any builder, widget, or content field."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1700
+msgid "Elementor — active. Widgets appear in the “Bookingly” panel category."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1701
+msgid "Elementor — not installed. Widgets register automatically once it is active."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1708
+msgid "Divi Builder — active. Modules are prefixed “Bookingly”."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1709
+msgid "Divi Builder — not installed. Modules register automatically once it is active."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1714
+msgid "How pages are built"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1716
+msgid "Pick one editor for the whole site. Elementor, the block editor and the theme templates all store layouts differently and none can read another, so mixing them page by page leaves editors opening a page and finding a different editor than they expect."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1718
+msgid "Switching is reversible for unchanged Bookingly-generated layouts. Pages with authored content or editor changes are protected and skipped."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1728
+msgid "Page building mode"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1737
+msgid "— in use"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1743
+msgid "Install and activate Elementor to use this mode."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1753
+msgid "Apply to all Bookingly pages"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1762
+msgid "Page"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1763
+msgid "Rendered by"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1764
+msgid "Edit"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1786
+msgid "Theme template"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1792
+msgid "Edit in Elementor"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1794
+msgid "Edit blocks"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1796
+msgid "Edited in Theme Options"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1804
+msgid "Shortcode reference"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1805
+msgid "Every section falls back to the values on these settings pages, so a shortcode with no attributes still renders your configured content."
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1809
+msgid "Section"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1810
+msgid "Shortcode"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1811
+msgid "Attributes"
+msgstr ""
+
+#: inc/class-bookingly-theme-options.php:1824
+msgid "None — content comes from Theme Options."
+msgstr ""
+
+#: inc/customizer.php:21
+msgid "Bookingly Theme"
+msgstr ""
+
+#: inc/customizer.php:22
+msgid "Logo, footer, homepage, contact, and colors are managed in Bookingly Theme Options for a cleaner admin experience."
+msgstr ""
+
+#: inc/customizer.php:51
+msgid "Manage logos, header, footer, homepage sections, testimonials, contact details, social links, and brand colors."
+msgstr ""
+
+#: inc/customizer.php:52
+msgid "Open Bookingly Theme Options"
+msgstr ""
+
+#: inc/customizer.php:63
+msgid "Full Theme Settings"
+msgstr ""
+
+#: inc/helpers.php:202
+#: inc/setup.php:378
+msgid "Home"
+msgstr ""
+
+#. translators: %s: search term.
+#: inc/helpers.php:259
+#, php-format
+msgid "Search results for “%s”"
+msgstr ""
+
+#: inc/helpers.php:263
+msgid "Page not found"
+msgstr ""
+
+#: inc/helpers.php:361
+msgid "Sunday"
+msgstr ""
+
+#: inc/helpers.php:362
+msgid "Monday"
+msgstr ""
+
+#: inc/helpers.php:363
+msgid "Tuesday"
+msgstr ""
+
+#: inc/helpers.php:364
+msgid "Wednesday"
+msgstr ""
+
+#: inc/helpers.php:365
+msgid "Thursday"
+msgstr ""
+
+#: inc/helpers.php:366
+msgid "Friday"
+msgstr ""
+
+#: inc/helpers.php:367
+msgid "Saturday"
+msgstr ""
+
+#. translators: 1: first weekday, 2: last weekday.
+#: inc/helpers.php:445
+#, php-format
+msgid "%1$s – %2$s"
+msgstr ""
+
+#: inc/patterns.php:65
+msgid "The complete Bookingly homepage: hero, trust strip, services, how it works, about, testimonials and a call to action."
+msgstr ""
+
+#: inc/patterns.php:70
+msgid "Page hero, story, value cards, statistics, team and a call to action."
+msgstr ""
+
+#: inc/patterns.php:75
+msgid "Page hero, the filterable services grid, and a call to action."
+msgstr ""
+
+#: inc/patterns.php:80
+msgid "Page hero, contact cards, enquiry form, map and opening hours."
+msgstr ""
+
+#: inc/patterns.php:85
+msgid "Page hero, a grid of recent posts, and the follow band."
+msgstr ""
+
+#: inc/section-renderers.php:57
+msgid "Starting at"
+msgstr ""
+
+#: inc/section-renderers.php:148
+msgid "carousel"
+msgstr ""
+
+#: inc/section-renderers.php:149
+msgid "Featured services"
+msgstr ""
+
+#. translators: 1: current slide number, 2: total slides, 3: service title.
+#: inc/section-renderers.php:165
+#, php-format
+msgid "Service %1$d of %2$d: %3$s"
+msgstr ""
+
+#: inc/section-renderers.php:176
+msgid "slide"
+msgstr ""
+
+#: inc/section-renderers.php:200
+msgid "from"
+msgstr ""
+
+#: inc/section-renderers.php:200
+#: inc/section-renderers.php:219
+msgid "Book now"
+msgstr ""
+
+#: inc/section-renderers.php:218
+msgid "Your first service"
+msgstr ""
+
+#: inc/section-renderers.php:229
+msgid "Choose a featured service"
+msgstr ""
+
+#. translators: 1: service number, 2: service title.
+#: inc/section-renderers.php:234
+#, php-format
+msgid "Show service %1$d: %2$s"
+msgstr ""
+
+#: inc/section-renderers.php:246
+#: inc/section-renderers.php:249
+msgid "Pause featured services"
+msgstr ""
+
+#: inc/section-renderers.php:247
+msgid "Play featured services"
+msgstr ""
+
+#: inc/section-renderers.php:248
+msgid "Autoplay is disabled by reduced-motion preferences"
+msgstr ""
+
+#: inc/section-renderers.php:325
+msgid "Filter services by category"
+msgstr ""
+
+#: inc/section-renderers.php:326
+msgid "All"
+msgstr ""
+
+#: inc/section-renderers.php:340
+msgid "No services published yet. Add services in Service Booking Manager and they will appear here."
+msgstr ""
+
+#. translators: %d: star rating out of five
+#: inc/section-renderers.php:479
+#, php-format
+msgid "%d out of 5 stars"
+msgstr ""
+
+#: inc/section-renderers.php:741
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/section-renderers.php:766
+msgid "Call Us"
+msgstr ""
+
+#: inc/section-renderers.php:771
+msgid "Email Us"
+msgstr ""
+
+#: inc/section-renderers.php:776
+msgid "Visit Us"
+msgstr ""
+
+#: inc/section-renderers.php:797
+msgid "Open a Support Ticket"
+msgstr ""
+
+#: inc/section-renderers.php:811
+msgid "(opens in a new tab)"
+msgstr ""
+
+#: inc/section-renderers.php:836
+msgid "Leave this field empty"
+msgstr ""
+
+#: inc/section-renderers.php:841
+msgid "Full Name"
+msgstr ""
+
+#: inc/section-renderers.php:869
+msgid "Send Message"
+msgstr ""
+
+#: inc/section-renderers.php:889
+msgid "Closed"
+msgstr ""
+
+#: inc/section-renderers.php:939
+#: inc/section-renderers.php:944
+msgid "Location map"
+msgstr ""
+
+#: inc/section-renderers.php:940
+msgid "The map is loaded from Google. Loading it shares your IP address with Google."
+msgstr ""
+
+#: inc/section-renderers.php:941
+msgid "Load map"
+msgstr ""
+
+#. translators: %d: minutes
+#: inc/section-renderers.php:1056
+#, php-format
+msgid "%d min"
+msgstr ""
+
+#. translators: %d: minutes
+#: inc/section-renderers.php:1096
+#: single.php:22
+#, php-format
+msgid "%d min read"
+msgstr ""
+
+#: inc/section-renderers.php:1098
+msgid "Read Article"
+msgstr ""
+
+#: inc/sections.php:106
+msgid "Hero"
+msgstr ""
+
+#: inc/sections.php:107
+msgid "Headline, lead paragraph, call-to-action buttons and the featured booking card."
+msgstr ""
+
+#: inc/sections.php:110
+msgid "Small label above the title"
+msgstr ""
+
+#: inc/sections.php:111
+msgid "Title — first part"
+msgstr ""
+
+#: inc/sections.php:112
+msgid "Title — highlighted word"
+msgstr ""
+
+#: inc/sections.php:113
+msgid "Title — last part"
+msgstr ""
+
+#: inc/sections.php:114
+msgid "Lead paragraph"
+msgstr ""
+
+#: inc/sections.php:115
+msgid "Main button label"
+msgstr ""
+
+#: inc/sections.php:116
+msgid "Main button link"
+msgstr ""
+
+#: inc/sections.php:116
+#: inc/sections.php:226
+msgid "Leave empty to use the Book Now link."
+msgstr ""
+
+#: inc/sections.php:117
+msgid "Second button label"
+msgstr ""
+
+#: inc/sections.php:118
+msgid "Second button link"
+msgstr ""
+
+#: inc/sections.php:119
+msgid "Fallback image"
+msgstr ""
+
+#: inc/sections.php:120
+msgid "Card badge text"
+msgstr ""
+
+#: inc/sections.php:121
+msgid "Services in hero rotation"
+msgstr ""
+
+#: inc/sections.php:122
+msgid "Show trust statistics"
+msgstr ""
+
+#: inc/sections.php:124
+msgid "Trust statistics"
+msgstr ""
+
+#: inc/sections.php:128
+msgid "Star icon"
+msgstr ""
+
+#: inc/sections.php:132
+msgid "Show booking card"
+msgstr ""
+
+#: inc/sections.php:136
+msgid "Trust Strip"
+msgstr ""
+
+#: inc/sections.php:137
+msgid "A single row of short reassurance statements."
+msgstr ""
+
+#: inc/sections.php:140
+msgid "Items — one per line"
+msgstr ""
+
+#: inc/sections.php:144
+msgid "Services Grid"
+msgstr ""
+
+#: inc/sections.php:145
+msgid "Bookable services pulled live from Service Booking Manager."
+msgstr ""
+
+#: inc/sections.php:148
+msgid "Show section heading"
+msgstr ""
+
+#: inc/sections.php:152
+msgid "How many to show"
+msgstr ""
+
+#: inc/sections.php:152
+msgid "Use -1 to show every service."
+msgstr ""
+
+#: inc/sections.php:153
+#: inc/sections.php:369
+msgid "Columns"
+msgstr ""
+
+#: inc/sections.php:154
+msgid "Show category filter"
+msgstr ""
+
+#: inc/sections.php:155
+msgid "Show service images"
+msgstr ""
+
+#: inc/sections.php:156
+msgid "Show service prices"
+msgstr ""
+
+#: inc/sections.php:157
+msgid "Show \"view all\" button"
+msgstr ""
+
+#: inc/sections.php:158
+#: inc/sections.php:193
+#: inc/sections.php:225
+#: inc/sections.php:381
+msgid "Button label"
+msgstr ""
+
+#: inc/sections.php:159
+#: inc/sections.php:194
+#: inc/sections.php:226
+msgid "Button link"
+msgstr ""
+
+#: inc/sections.php:159
+msgid "Leave empty to link to the Services page."
+msgstr ""
+
+#: inc/sections.php:163
+msgid "How It Works"
+msgstr ""
+
+#: inc/sections.php:164
+msgid "The three numbered steps. Step content is edited in Theme Options."
+msgstr ""
+
+#: inc/sections.php:169
+#: inc/sections.php:251
+msgid "Tinted background"
+msgstr ""
+
+#: inc/sections.php:171
+msgid "Steps"
+msgstr ""
+
+#: inc/sections.php:182
+msgid "About Preview"
+msgstr ""
+
+#: inc/sections.php:183
+msgid "Image with a badge beside a short story and feature points."
+msgstr ""
+
+#: inc/sections.php:188
+#: inc/sections.php:288
+msgid "Paragraph"
+msgstr ""
+
+#: inc/sections.php:189
+msgid "Image"
+msgstr ""
+
+#: inc/sections.php:192
+msgid "Feature points — one per line"
+msgstr ""
+
+#: inc/sections.php:194
+msgid "Leave empty to link to the About page."
+msgstr ""
+
+#: inc/sections.php:198
+#: inc/sections.php:206
+msgid "Testimonials"
+msgstr ""
+
+#: inc/sections.php:199
+msgid "Customer quotes on a dark band. Quotes are edited in Theme Options."
+msgstr ""
+
+#: inc/sections.php:212
+msgid "Stars"
+msgstr ""
+
+#: inc/sections.php:219
+msgid "Call To Action Band"
+msgstr ""
+
+#: inc/sections.php:220
+msgid "A wide highlighted band with one button."
+msgstr ""
+
+#: inc/sections.php:230
+msgid "Statistics Band"
+msgstr ""
+
+#: inc/sections.php:231
+msgid "Large numbers on a dark band."
+msgstr ""
+
+#: inc/sections.php:245
+msgid "Value Cards"
+msgstr ""
+
+#: inc/sections.php:246
+msgid "Four icon cards describing what the business stands for."
+msgstr ""
+
+#: inc/sections.php:253
+msgid "Cards"
+msgstr ""
+
+#: inc/sections.php:264
+msgid "Team Grid"
+msgstr ""
+
+#: inc/sections.php:265
+msgid "Staff photos and roles. Members are edited in Theme Options."
+msgstr ""
+
+#: inc/sections.php:271
+msgid "Members"
+msgstr ""
+
+#: inc/sections.php:283
+msgid "Three stacked images beside a longer story. Uses the page content when present."
+msgstr ""
+
+#: inc/sections.php:288
+msgid "Leave empty to use the page content. Blank lines start a new paragraph."
+msgstr ""
+
+#: inc/sections.php:297
+msgid "Page Hero"
+msgstr ""
+
+#: inc/sections.php:298
+msgid "Centred page title with an optional breadcrumb."
+msgstr ""
+
+#: inc/sections.php:302
+msgid "Leave empty to use the page title."
+msgstr ""
+
+#: inc/sections.php:303
+msgid "Intro text"
+msgstr ""
+
+#: inc/sections.php:303
+msgid "Leave empty to use the page excerpt."
+msgstr ""
+
+#: inc/sections.php:304
+msgid "Show breadcrumb"
+msgstr ""
+
+#: inc/sections.php:308
+msgid "Contact Cards"
+msgstr ""
+
+#: inc/sections.php:309
+msgid "Phone, email, address and support-portal cards. Leave a field empty to use the Theme Options value."
+msgstr ""
+
+#: inc/sections.php:313
+msgid "Phone note"
+msgstr ""
+
+#: inc/sections.php:315
+msgid "Email note"
+msgstr ""
+
+#: inc/sections.php:317
+msgid "Support portal URL"
+msgstr ""
+
+#: inc/sections.php:318
+msgid "Support link label"
+msgstr ""
+
+#: inc/sections.php:319
+msgid "Support note"
+msgstr ""
+
+#: inc/sections.php:323
+msgid "Contact Form"
+msgstr ""
+
+#: inc/sections.php:324
+msgid "Accessible enquiry form that emails the address set in Theme Options."
+msgstr ""
+
+#: inc/sections.php:328
+msgid "Subtitle"
+msgstr ""
+
+#: inc/sections.php:329
+msgid "Topic choices — one per line"
+msgstr ""
+
+#: inc/sections.php:333
+msgid "Business Hours"
+msgstr ""
+
+#: inc/sections.php:334
+msgid "Opening hours from Theme Options."
+msgstr ""
+
+#: inc/sections.php:341
+msgid "Location Map"
+msgstr ""
+
+#: inc/sections.php:342
+msgid "Google Maps embed with an optional visitor privacy prompt."
+msgstr ""
+
+#: inc/sections.php:348
+msgid "Map loading"
+msgstr ""
+
+#: inc/sections.php:352
+msgid "Use Theme Options"
+msgstr ""
+
+#: inc/sections.php:353
+msgid "Require visitor click"
+msgstr ""
+
+#: inc/sections.php:354
+msgid "Load immediately"
+msgstr ""
+
+#: inc/sections.php:356
+msgid "Google receives visitor data when the map loads."
+msgstr ""
+
+#: inc/sections.php:362
+msgid "Blog Posts"
+msgstr ""
+
+#: inc/sections.php:363
+msgid "Latest posts as cards, with an optional large featured post."
+msgstr ""
+
+#: inc/sections.php:368
+msgid "How many posts"
+msgstr ""
+
+#: inc/sections.php:370
+msgid "Highlight the newest post"
+msgstr ""
+
+#: inc/sections.php:374
+msgid "Follow Band"
+msgstr ""
+
+#: inc/sections.php:375
+msgid "Invites readers to subscribe to the site feed."
+msgstr ""
+
+#: inc/setup.php:48
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/setup.php:49
+msgid "Footer Explore Menu"
+msgstr ""
+
+#: inc/setup.php:50
+msgid "Footer Services Menu"
+msgstr ""
+
+#. translators: %d: number of visible services.
+#: inc/setup.php:162
+#, php-format
+msgid "%d service shown"
+msgstr ""
+
+#. translators: %d: number of visible services.
+#: inc/setup.php:163
+#, php-format
+msgid "%d services shown"
+msgstr ""
+
+#. translators: %d: number of visible services.
+#: inc/setup.php:164
+msgid "Sending…"
+msgstr ""
+
+#: inc/setup.php:165
+msgid "Message sent"
+msgstr ""
+
+#: inc/setup.php:166
+msgid "Unable to send your message. Please try again."
+msgstr ""
+
+#: inc/setup.php:286
+msgid "An existing page uses this URL but is not published. Publish it before continuing."
+msgstr ""
+
+#: inc/setup.php:302
+msgid "Already exists. Existing content was kept."
+msgstr ""
+
+#: inc/setup.php:338
+msgid "Created."
+msgstr ""
+
+#: inc/setup.php:451
+#: inc/setup.php:525
+msgid "Your message was received successfully."
+msgstr ""
+
+#: inc/setup.php:457
+msgid "Please refresh the page and try again."
+msgstr ""
+
+#: inc/setup.php:470
+msgid "One or more fields are too long. Please shorten your message and try again."
+msgstr ""
+
+#: inc/setup.php:483
+msgid "Please fill in all required fields."
+msgstr ""
+
+#: inc/setup.php:486
+msgid "Enter a valid email address."
+msgstr ""
+
+#: inc/setup.php:489
+msgid "General Inquiry"
+msgstr ""
+
+#: inc/setup.php:501
+msgid "Unable to send your message right now. Please try again later."
+msgstr ""
+
+#: inc/setup.php:524
+msgid "Your message was received, but we could not send the confirmation email."
+msgstr ""
+
+#: index.php:35
+msgid "Nothing found."
+msgstr ""
+
+#. Template Name of the theme
+msgid "Bookingly About"
+msgstr ""
+
+#: page-templates/template-about.php:21
+msgid "Our Story"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Bookingly Blank (Page Builder)"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Bookingly Contact"
+msgstr ""
+
+#: page-templates/template-contact.php:19
+msgid "Get In Touch"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Bookingly Full Width"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Bookingly Services"
+msgstr ""
+
+#: page-templates/template-services.php:21
+msgid "Everything We Book"
+msgstr ""
+
+#: page-templates/template-services.php:41
+msgid "Can't find a category?"
+msgstr ""
+
+#: page-templates/template-services.php:42
+msgid "Tell us what you need booked and we'll find a provider."
+msgstr ""
+
+#: page-templates/template-services.php:43
+msgid "Contact Us"
+msgstr ""
+
+#: search.php:13
+#: searchform.php:23
+msgid "Search"
+msgstr ""
+
+#. translators: %s: search query
+#: search.php:18
+#, php-format
+msgid "Results for “%s”"
+msgstr ""
+
+#. translators: %d: number of results
+#: search.php:27
+#, php-format
+msgid "%d result found."
+msgid_plural "%d results found."
+msgstr[0] ""
+msgstr[1] ""
+
+#: search.php:58
+msgid "No results found. Try a different search term."
+msgstr ""
+
+#: searchform.php:12
+msgid "Search this site"
+msgstr ""
+
+#: searchform.php:20
+msgid "Search…"
+msgstr ""
+
+#: single.php:16
+msgid "Article"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Primary Dark"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Primary Tint"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Accent"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Accent Tint"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Ink"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Ink Soft"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Ink Faint"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Surface"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Surface Tint"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Background"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Line"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Body"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Display"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Display"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "1"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "2"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "3"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "4"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "5"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "6"
+msgstr ""

@@ -1,0 +1,89 @@
+/*!
+ * Bookingly — block editor chrome.
+ * Only affects the editing surface, never the rendered page.
+ */
+
+.bookingly-block-preview {
+	pointer-events: none;
+	position: relative;
+}
+
+.bookingly-block-preview::after {
+	content: "";
+	position: absolute;
+	inset: 0;
+}
+
+.bookingly-block-media {
+	margin-bottom: 16px;
+}
+
+.bookingly-block-media__label {
+	margin: 0 0 8px;
+	font-size: 11px;
+	font-weight: 500;
+	line-height: 1.4;
+	text-transform: uppercase;
+	color: #1e1e1e;
+}
+
+.bookingly-block-media__actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+.bookingly-block-media__help {
+	margin: 8px 0 0;
+	font-size: 12px;
+	font-style: normal;
+	color: #757575;
+}
+
+/* Editor-side guard rail: the theme's sticky header must not stick inside the
+   canvas, or it floats over the block toolbar. */
+.editor-styles-wrapper .hv-header {
+	position: static;
+}
+
+/* Repeater rows in the block inspector ------------------------------------ */
+
+.bookingly-repeater__row {
+	border: 1px solid #e0e0e0;
+	border-radius: 4px;
+	padding: 12px;
+	margin-bottom: 12px;
+	background: #fff;
+}
+
+.bookingly-repeater__head {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 8px;
+	margin-bottom: 10px;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.bookingly-repeater__head strong {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: .02em;
+	color: #1e1e1e;
+}
+
+.bookingly-repeater__tools {
+	display: flex;
+	gap: 2px;
+	flex: none;
+}
+
+.bookingly-repeater__empty {
+	margin: 0 0 12px;
+	padding: 10px 12px;
+	background: #f0f6fc;
+	border-left: 3px solid #2271b1;
+	font-size: 12px;
+	color: #1e1e1e;
+}
