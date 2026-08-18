@@ -35,6 +35,7 @@ require_once BOOKINGLY_DIR . '/inc/section-renderers.php';
 require_once BOOKINGLY_DIR . '/inc/class-bookingly-theme-options.php';
 require_once BOOKINGLY_DIR . '/inc/class-bookingly-setup-wizard.php';
 require_once BOOKINGLY_DIR . '/inc/woocommerce.php';
+require_once BOOKINGLY_DIR . '/inc/easy-shuttle.php';
 
 Bookingly_Seo::init();
 Bookingly_Seo_Meta::init();
